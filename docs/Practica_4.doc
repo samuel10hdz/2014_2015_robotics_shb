@@ -1,0 +1,7 @@
+El getLeftEncoder nos da lo que se ha movido en marcas del encoder en vez de en metros, por lo que queremos sacar la relación.
+
+Sabemos que el encoder tiene resolucion 5 y que 1 vuelta = en metros es 2piR   (Radio=0.0825)
+
+una vuelta es equivalente a 360º y 6.28 radianes
+Mediante una regla de tres sabemos que en cada vuelta tenemos 31,416 marcas del encoder
+Igualmente calculamos 1 metro= 60.59 marcas del encoder
